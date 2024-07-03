@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-flask-app
-        image: {{process.env.DOCKER_BFLASK_IMAGE}} #The Docker image
+        image: ${DOCKER_BFLASK_IMAGE} #The Docker image
         ports:
         - containerPort: 80
