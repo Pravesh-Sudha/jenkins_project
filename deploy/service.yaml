@@ -8,5 +8,5 @@ spec:
   type: LoadBalancer #Type of the Kubernetes Service
   ports:
   - protocol: TCP
-    port: 80 #Service port
-    targetPort: 80 #The port for the application container
+    port: 5000 #Service port
+    targetPort: 5000 #The port for the application container

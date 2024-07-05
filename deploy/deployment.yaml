@@ -18,4 +18,4 @@ spec:
       - name: my-flask-app
         image: ${DOCKER_BFLASK_IMAGE} #The Docker image
         ports:
-        - containerPort: 80
+        - containerPort: 5000
