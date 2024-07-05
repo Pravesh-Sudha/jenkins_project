@@ -13,7 +13,7 @@ pipeline {
         sh 'docker run my-flask-app python -m pytest app/tests/'
       }
     }
-    stage('Deploy') {
+    stage('Image Push to Registry') {
       steps {
           sh 'docker push $DOCKER_BFLASK_IMAGE'
       }
