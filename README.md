@@ -21,3 +21,4 @@ is run on a separate AWS EC2 instance.
 After the push of the docker image to the registry, deployment to K8s follows. 
 Kubernetes runs on 3 servers: one is a control pane, the other two are worker nodes.
 New Changes
+Best Changes
